@@ -41,7 +41,10 @@ export default function SiteFooter() {
       </div>
       <div className="nk-footer-bottom">
         <span>© {new Date().getFullYear()} Nolan&apos;s Knives · Huntsville, Alabama</span>
-        <span><a href="mailto:orders@nolansknives.com">orders@nolansknives.com</a></span>
+        <span>
+          <a href="mailto:orders@nolansknives.com">orders@nolansknives.com</a>
+          {" · "}Website by <a href="https://huntsvillesoftware.com" target="_blank" rel="noopener">Huntsville Software</a>
+        </span>
       </div>
     </footer>
   );
